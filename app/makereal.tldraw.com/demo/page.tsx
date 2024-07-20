@@ -22,7 +22,6 @@ import { SlideShapeTool } from '../../Slides/SlideShapeTool'
 import { SlideShapeUtil } from '../../Slides/SlideShapeUtil'
 import { SlidesPanel } from '../../Slides/SlidesPanel'
 import { $currentSlide, getSlides, moveToSlide } from '../../Slides/useSlides'
-import { LinkArea } from '../../components/LinkArea'
 import { Links } from '../../components/Links'
 import { makeRealSettings } from '../../lib/settings'
 
@@ -114,7 +113,6 @@ export default function Home() {
 					window['editor'] = editor
 				}}
 			>
-				<LinkArea />
 			</Tldraw>
 		</div>
 	)

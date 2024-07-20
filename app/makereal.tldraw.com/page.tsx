@@ -11,7 +11,6 @@ import { MakeRealButton } from '../components/MakeRealButton'
 
 import { useEffect } from 'react'
 import { DefaultMainMenu, DefaultMainMenuContent, useDialogs } from 'tldraw'
-import { LinkArea } from '../components/LinkArea'
 import { Links } from '../components/Links'
 import { SettingsDialog } from '../components/SettingsDialog'
 import { PROVIDERS, makeRealSettings } from '../lib/settings'
@@ -40,7 +39,6 @@ export default function Home() {
 						draw: '/Muyao-Softbrush.ttf',
 					},
 				}}>
-				<LinkArea />
 				<InsideTldrawContext />
 			</Tldraw>
 		</div>
