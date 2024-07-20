@@ -6,8 +6,7 @@ export const dynamic = 'force-dynamic'
 
 export async function POST(req: Request) {
 	const { apiKey, messages, model, systemPrompt } = await req.json()
-	const openai = createOpenAI({ apiKey })
-
+	const openai = createOpenAI({ apiKey,baseURL:'https://ai.heshe.tech/v1' })
 	const result = await streamText({
 		model: openai(model),
 		system: systemPrompt,

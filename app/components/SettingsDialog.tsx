@@ -36,14 +36,14 @@ export function SettingsDialog({ onClose }: TLUiDialogProps) {
 				style={{ maxWidth: 350, display: 'flex', flexDirection: 'column', gap: 8 }}
 			>
 				<p>
-					To use Make Real, enter your API key for each model provider that you wish to use. Draw
-					some shapes, then select the shapes and click Make Real.{' '}
+					OpenAI需要使用来自
 					<a
 						target="_blank"
-						href="https://tldraw.notion.site/Make-Real-FAQs-93be8b5273d14f7386e14eb142575e6e?pvs=4"
+						href="https://ai.heshe.tech/register?aff=Gt5L"
 					>
-						<u>Read our guide.</u>
+						<u> 合社AI </u>
 					</a>
+					的API key 
 				</p>
 				<div style={{ display: 'flex', flexDirection: 'column', gap: 4, marginTop: 8 }}>
 					<div style={{ display: 'flex', flexDirection: 'row', gap: 4 }}>

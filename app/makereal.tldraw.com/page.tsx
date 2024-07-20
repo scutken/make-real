@@ -34,7 +34,12 @@ const components = {
 export default function Home() {
 	return (
 		<div className="tldraw__editor">
-			<Tldraw persistenceKey="tldraw" shapeUtils={shapeUtils} components={components}>
+			<Tldraw persistenceKey="tldraw" shapeUtils={shapeUtils} components={components} assetUrls={{
+					fonts: {
+						// 替换字体为沐瑶随心手写体
+						draw: '/Muyao-Softbrush.ttf',
+					},
+				}}>
 				<LinkArea />
 				<InsideTldrawContext />
 			</Tldraw>
