@@ -19,7 +19,7 @@ import { PROVIDERS, makeRealSettings } from '../lib/settings'
 import { uploadLink } from '../lib/uploadLink'
 import { SettingsDialog } from './SettingsDialog'
 
-export const maxDuration = 120
+export const maxDuration = 60
 
 export function MakeRealButton() {
 	const editor = useEditor()
