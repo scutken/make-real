@@ -39,7 +39,8 @@ export default function Home() {
 						draw: '/Muyao-Softbrush.ttf',
 					},
 				}}>
-				<InsideTldrawContext />
+					{/* 不在刚进入时检查setting */}
+				{/* <InsideTldrawContext /> */}
 			</Tldraw>
 		</div>
 	)
