@@ -6,7 +6,7 @@ const env =
 		  : 'development'
 
 export const LINK_HOST = {
-	production: 'draw.heshe.tech',
+	production: 'link.heshe.tech',
 	preview: `link---${process.env.NEXT_PUBLIC_VERCEL_URL}`,
 	development: 'makereal-link.localhost:3000',
 }[env]
