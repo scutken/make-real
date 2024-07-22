@@ -22,10 +22,10 @@ export function middleware(req: NextRequest) {
 
 	if (host === LINK_HOST) {
 		// rewrite requests on the link host to the link site:
-		rewrittenUrl.pathname = `/draw-link.heshe.tech${rewrittenUrl.pathname}`
+		rewrittenUrl.pathname = `/makereal.tldraw.link${rewrittenUrl.pathname}`
 	} else {
 		// rewrite everything else to the main site:
-		rewrittenUrl.pathname = `/draw.heshe.tech${rewrittenUrl.pathname}`
+		rewrittenUrl.pathname = `/makereal.tldraw.com${rewrittenUrl.pathname}`
 	}
 
 	return NextResponse.rewrite(rewrittenUrl)
