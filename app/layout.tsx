@@ -9,7 +9,7 @@ const TWITTER_HANDLE = '@tldraw'
 const TWITTER_CARD = 'social-twitter.png'
 const FACEBOOK_CARD = 'social-og.png'
 const THEME_COLOR = '#FFFFFF'
-const SITE_URL = 'https://makereal.tldraw.com'
+const SITE_URL = 'https://draw.heshe.tech'
 
 export const metadata: Metadata = {
 	metadataBase: new URL(SITE_URL),
